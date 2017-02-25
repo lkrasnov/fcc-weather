@@ -1,0 +1,64 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>freeCodeCamp - Show the Local Weather</title>
+  <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link href="https://use.fontawesome.com/652649cc8f.css" media="all" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/weather-icons.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header clearfix">
+      <h3 class="text-muted">Show the Local Weather</h3>
+    </div>
+
+    <div class="jumbotron">
+      <div class="row justify-content-end">
+        <div class="col-2">
+          <div class="btn-group btn-group-sm" data-toggle="buttons">
+            <label class="btn btn-primary active">
+              <input type="radio" name="unit-select" id="fahrenheit" autocomplete="off" checked>&deg;F
+            </label>
+            <label class="btn btn-primary">
+              <input type="radio" name="unit-select" id="celcius" autocomplete="off">&deg;C
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="icon-weather"><i class="wi wi-day-sunny"></i></div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center">
+          <div>
+            <div class="row">
+              <div class="col">
+                <h2>50&deg; F</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h5>Lincolnwood</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="footer">
+      <p>Made by Leo Krasnov</p>
+    </footer>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="./js/weather.js"></script>
+</body>
+
+</html>
